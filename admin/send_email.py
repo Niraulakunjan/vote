@@ -8,7 +8,7 @@ def send_email(voter_email, voter_id, plain_password):
     smtp_server = "smtp.gmail.com"
     smtp_port = 587
     sender_email = "niraula67kunjan@gmail.com"  # Replace with your email
-    sender_password = "uglm yoih aiqa cupg"  # Use an app-specific password if needed
+    sender_password = ""  # Use an app-specific password if needed
 
     # Email content
     subject = "Your Voter Registration Details"
